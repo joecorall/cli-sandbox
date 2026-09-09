@@ -15,7 +15,7 @@ jobs:
           verbose: true
   push:
     needs: [lint]
-    uses: libops/.github/.github/workflows/build-push.yaml@5f44a8c8d157bb7e5cf6d9e1c98847a604e87455 # main
+    uses: libops/.github/.github/workflows/build-push.yaml@782ba8f6514788269e93e0a51c001061279f645a # main
     permissions:
       contents: read
       packages: write
