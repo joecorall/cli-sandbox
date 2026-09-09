@@ -9,7 +9,7 @@ ARG \
   # renovate: datasource=go depName=github.com/docker/buildx
   DOCKER_BUILDX_VERSION=v0.37.0 \
   # renovate: datasource=go depName=github.com/docker/compose/v5
-  DOCKER_COMPOSE_VERSION=v5.5.0 \
+  DOCKER_COMPOSE_VERSION=v5.5.1 \
   # renovate: datasource=go depName=github.com/hashicorp/terraform
   TERRAFORM_VERSION=v1.16.1 \
   TERRAFORM_SOURCE_SHA256=d425d2d781763bf810d6c547a47822d4d0d934ff5311e9e26dc45f4f30c241bd
@@ -18,11 +18,11 @@ ARG \
   # renovate: datasource=go depName=github.com/moby/go-archive
   GO_ARCHIVE_VERSION=v0.3.3 \
   # renovate: datasource=go depName=golang.org/x/mod
-  GO_MOD_VERSION=v0.40.0 \
+  GO_MOD_VERSION=v0.41.0 \
   # renovate: datasource=go depName=golang.org/x/net
-  GO_NET_VERSION=v0.58.0 \
+  GO_NET_VERSION=v0.59.0 \
   # renovate: datasource=go depName=golang.org/x/text
-  GO_TEXT_VERSION=v0.41.0 \
+  GO_TEXT_VERSION=v0.42.0 \
   # renovate: datasource=go depName=google.golang.org/grpc
   GRPC_VERSION=v1.83.2
 
@@ -30,7 +30,7 @@ ARG \
   # renovate: datasource=go depName=golang.org/x/tools/gopls
   GOPLS_VERSION=v0.23.0 \
   # renovate: datasource=go depName=golang.org/x/vuln
-  GOVULNCHECK_VERSION=v1.7.0 \
+  GOVULNCHECK_VERSION=v1.8.0 \
   # renovate: datasource=go depName=github.com/securego/gosec/v2
   GOSEC_VERSION=v2.29.0 \
   # renovate: datasource=go depName=github.com/rhysd/actionlint
@@ -156,9 +156,9 @@ ARG \
   # Pinned from Docker's test channel until the next stable release includes
   # the Go 1.26.6 security fixes verified by the image vulnerability scan.
   # renovate: datasource=deb depName=docker-ce
-  DOCKER_CE_VERSION=5:29.8.0~rc.1-1~debian.13~trixie \
+  DOCKER_CE_VERSION=5:29.8.0-1~debian.13~trixie \
   # renovate: datasource=deb depName=containerd.io
-  CONTAINERD_IO_VERSION=2.3.4-1~debian.13~trixie \
+  CONTAINERD_IO_VERSION=2.3.5-1~debian.13~trixie \
   # renovate: datasource=repology depName=debian_13/fzf
   FZF_VERSION=0.60.3-1+b2 \
   # renovate: datasource=repology depName=debian_13/gh
@@ -339,11 +339,11 @@ ARG \
   # renovate: datasource=npm depName=tar
   NPM_TAR_VERSION=7.5.22 \
   # renovate: datasource=npm depName=@anthropic-ai/claude-code
-  CLAUDE_CLI_VERSION=2.1.259 \
+  CLAUDE_CLI_VERSION=2.1.263 \
   # renovate: datasource=npm depName=@openai/codex
   CODEX_CLI_VERSION=0.153.4 \
   # renovate: datasource=npm depName=@earendil-works/pi-coding-agent
-  PI_CLI_VERSION=0.84.4 \
+  PI_CLI_VERSION=0.85.1 \
   CLI=""
 
 # hadolint ignore=DL3066
